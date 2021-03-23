@@ -70,7 +70,7 @@ int main()
     char* s = "    sfgrggrgrgrgdr";
     cout << reverse(s) << endl;
     char ch; cin >> ch;
-    cout << delete_char(s, ch);
+    cout << delete_char(s, ch) << endl;
     int n; cin >> n;
     cout << pad_left(s, n) << endl;
     cout << trim_left(s) << endl;
